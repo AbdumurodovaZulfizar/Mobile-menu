@@ -27,7 +27,7 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+.none {
   display: none;
 }
 
