@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet) 
 # Mobile-Menu
 
-On this milestone we have created menu for our prtfolio for mobile version. To do this we used Javascript event listeners.
+On this milestone, we have created a menu for our prtfolio for the mobile version. To do this we used Javascript event listeners.
 
 ### Built With
 
