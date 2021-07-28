@@ -1,7 +1,6 @@
 const header = document.querySelector('header');
 const title = document.getElementById('logo');
 const button = document.querySelector('.menu-bars');
-const email = document.querySelector(".far");
 
 // const main = document.querySelector("main");
 
@@ -13,16 +12,15 @@ const link = document.querySelector('.nav-link');
 const link2 = document.querySelector('.link2');
 const link3 = document.querySelector('.link3');
 
-function showNav() {
+const showNav = () => {
   title.remove();
   button.remove();
   navbar.classList.remove('none');
-  email.classList.add("none");
   header.appendChild(navbar);
   header.appendChild(button2);
-}
+};
 
-function showMenu() {
+const showMenu = () => {
   button2.remove();
   navbar.classList.add('none');
   header.appendChild(title);

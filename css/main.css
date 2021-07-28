@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.nav-link {
+  color: #fff;
+}
+
 a {
   text-decoration: none;
 }
@@ -31,7 +35,7 @@ header {
   display: none;
 }
 
-.logo {
+#logo {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -56,14 +60,14 @@ main {
   flex-direction: column;
 }
 
-.intro,
-.about-me {
+#intro,
+#about-me {
   background-color: #1c1a19;
   color: white;
   position: relative;
 }
 
-.intro {
+#intro {
   padding: 10%;
   padding-bottom: 20vh;
 }
@@ -88,7 +92,7 @@ main {
 }
 
 .intro-greet,
-.about-me h2 {
+#about-me h2 {
   color: #ff6b00;
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -142,7 +146,7 @@ main {
   padding-bottom: 20vh;
 }
 
-.projects {
+#projects {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -152,7 +156,7 @@ main {
   padding: 10%;
 }
 
-.projects h2 {
+#projects h2 {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: normal;
@@ -163,7 +167,7 @@ main {
   color: #1c1a19;
 }
 
-.projects hr {
+#projects hr {
   margin: 25px 0;
   border-color: #212121;
 }
@@ -282,7 +286,7 @@ li {
   background: rgba(0, 0, 0, 0.349);
 }
 
-.about-me,
+#about-me,
 .about-me-section,
 .stacks {
   width: 100%;
@@ -338,10 +342,6 @@ li {
   bottom: 0;
 }
 
-.nav-link {
-  color: #fff;
-}
-
 .list-title {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -362,11 +362,11 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
-.contact {
+#contact {
   padding: 10%;
 }
 
-.contact h2 {
+#contact h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -437,7 +437,7 @@ textarea {
     height: 50%;
   }
 
-  .intro {
+  #intro {
     height: 95vh;
     display: flex;
     flex-direction: column;
@@ -448,11 +448,11 @@ textarea {
     display: none;
   }
 
-  .desktop-nav {
+  #desktop-nav {
     display: block;
   }
 
-  .desktop-nav ul {
+  #desktop-nav ul {
     display: flex;
     margin-right: 10vw;
   }
@@ -473,7 +473,7 @@ textarea {
     border: 1px solid #d2d5db;
   }
 
-  .logo {
+  #logo {
     font-size: 24px;
   }
 
@@ -527,20 +527,20 @@ textarea {
     margin: 15px 0;
   }
 
-  .contact {
+  #contact {
     display: flex;
     padding: 10% 5%;
   }
 
-  .contact h2 {
+  #contact h2 {
     width: 30vw;
   }
 
-  .fullname {
+  #fullname {
     display: none;
   }
 
-  .email,
+  #email,
   textarea {
     min-width: 50vw;
   }
@@ -550,7 +550,7 @@ textarea {
     min-width: 100%;
   }
 
-  .name,
+  #name,
   #surname {
     min-width: 49%;
   }
