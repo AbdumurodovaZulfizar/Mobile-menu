@@ -25,7 +25,7 @@ const showMenu = () => {
   navbar.classList.add('none');
   header.appendChild(title);
   header.append(button);
-}
+};
 
 button.addEventListener('click', showNav);
 cross.addEventListener('click', showMenu);
