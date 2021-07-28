@@ -1,6 +1,7 @@
 const header = document.querySelector('header');
 const title = document.getElementById('logo');
 const button = document.querySelector('.menu-bars');
+const email = document.querySelector(".far");
 
 // const main = document.querySelector("main");
 
@@ -16,6 +17,7 @@ function showNav() {
   title.remove();
   button.remove();
   navbar.classList.remove('none');
+  email.classList.add("none");
   header.appendChild(navbar);
   header.appendChild(button2);
 }
