@@ -35,7 +35,7 @@ header {
   display: none;
 }
 
-#logo {
+.logo {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -60,14 +60,14 @@ main {
   flex-direction: column;
 }
 
-#intro,
-#about-me {
+.intro,
+.about-me {
   background-color: #1c1a19;
   color: white;
   position: relative;
 }
 
-#intro {
+.intro {
   padding: 10%;
   padding-bottom: 20vh;
 }
@@ -92,7 +92,7 @@ main {
 }
 
 .intro-greet,
-#about-me h2 {
+.about-me h2 {
   color: #ff6b00;
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -437,7 +437,7 @@ textarea {
     height: 50%;
   }
 
-  #intro {
+  .intro {
     height: 95vh;
     display: flex;
     flex-direction: column;
